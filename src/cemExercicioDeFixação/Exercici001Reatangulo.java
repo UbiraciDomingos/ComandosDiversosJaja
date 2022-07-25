@@ -8,7 +8,7 @@ public class Exercici001Reatangulo {
 
 		Scanner sc = new Scanner(System.in);
 
-		double base, altura, area;
+		double base, altura, area, retangulo;
 		System.out.printf("entre com valor da base = ");
 
 		base = sc.nextDouble();
@@ -19,11 +19,12 @@ public class Exercici001Reatangulo {
 
 		area = sc.nextDouble();
 
-		// perimetro = sc.nextDouble();
+		retangulo = sc.nextDouble();
+		System.out.println();
+		System.out.println("O valor da area é = " + base * altura);
+		System.out.println("entre com o valor da autura ");
 
-	 System.out.println("O valo do Perimetro é = " + base * altura * area);
-	
-
-		sc.close();
+		// System.out.println("O valo do Perimetro é = " + area + altura + area +
+		// retangulo);
 	}
 }
