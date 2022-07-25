@@ -6,25 +6,27 @@ public class Exercici001Reatangulo {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+		Scanner entrada = new Scanner(System.in);
 
-		double base, altura, area, retangulo;
+		double base, altura, area;
 		System.out.printf("entre com valor da base = ");
 
-		base = sc.nextDouble();
+		base = entrada.nextDouble();
 		System.out.printf("Entre com o valor da altura = ");
 
-		altura = sc.nextDouble();
+		altura = entrada.nextDouble();
 		System.out.printf("Entre com o valor da Area = ");
 
-		area = sc.nextDouble();
+		area = entrada.nextDouble();
 
-		retangulo = sc.nextDouble();
-		System.out.println();
-		System.out.println("O valor da area é = " + base * altura);
-		System.out.println("entre com o valor da autura ");
+		// retangulo = sc.nextDouble();
+		// System.out.println();
+		System.out.println("O valor da Perimetro é = " + (base * altura / area));
+		// System.out.println("entre com o valor da autura ");
 
-		// System.out.println("O valo do Perimetro é = " + area + altura + area +
-		// retangulo);
+		// System.out.println("O valo do Perimetro é = " + area * altura / area);
+
+		entrada.close();
 	}
+
 }
