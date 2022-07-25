@@ -8,10 +8,21 @@ public class Exercici001Reatangulo {
 
 		Scanner sc = new Scanner(System.in);
 
-		int x;
-		x = sc.nextInt();
+		double base, altura, area;
+		System.out.printf("entre com valor da base = ");
 
-		System.out.println("O tamanho do Triangulo é: " + x);
+		base = sc.nextDouble();
+		System.out.printf("Entre com o valor da altura = ");
+
+		altura = sc.nextDouble();
+		System.out.printf("Entre com o valor da Area = ");
+
+		area = sc.nextDouble();
+
+		// perimetro = sc.nextDouble();
+
+	 System.out.println("O valo do Perimetro é = " + base * altura * area);
+	
 
 		sc.close();
 	}
